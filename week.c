@@ -1,0 +1,35 @@
+#include<stdio.h> \* Header Files*/
+#include<conio.h>
+void main() {
+	int a; /* variable declaration*/
+	clrscr();
+	printf("Enter week day no = ");
+	scanf("%d" ,&a);
+	switch(a) /*test expression*/ {
+		case 1:
+			printf("Sunday");
+			break;
+		case 2:
+			printf("Monday");
+			break;
+		case 3: 
+			printf("Tuesday")
+			break;
+		case 4:
+			printf("Wednesday")
+			break;
+		case 5:
+			printf("Thursday")
+			break;
+                case 6:
+			printf("Friday")
+			break;
+		case 7: 
+			printf("Saturday")
+			break;
+		default:
+			printf("Wrong Day No Insert.");
+	}
+	getch();
+}
+
